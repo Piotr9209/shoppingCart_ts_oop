@@ -1,5 +1,5 @@
-import { Item } from './Item'
-import { ShoppingCart } from './ShoppingCart'
+import { Item } from '../Item/Item'
+import { ShoppingCart } from '../ShoppingCart/ShoppingCart'
 
 
 const product1 = new Item('jablko', 'owoce', 15, 0, 2);

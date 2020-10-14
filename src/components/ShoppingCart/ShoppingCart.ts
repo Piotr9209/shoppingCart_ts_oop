@@ -11,9 +11,9 @@
 import {
     v4 as uuidv4
 } from 'uuid';
-import { Item } from './Item'
-import { IItem } from '../interface/IItem';
-import { IShoppingCart } from '../interface/IShoppingCart';
+import { Item } from '../Item/Item'
+import { IItem } from '../../interface/IItem';
+import { IShoppingCart } from '../../interface/IShoppingCart';
 
 
 

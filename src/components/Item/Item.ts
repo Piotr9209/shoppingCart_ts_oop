@@ -1,9 +1,9 @@
 import {
     v4 as uuidv4
 } from 'uuid';
-import { Validator } from './Validator';
-import { IItem } from '../interface/IItem';
-import { availableKeys } from '../type/availableKeys';
+import { Validator } from '../Validator/Validator';
+import { IItem } from '../../interface/IItem';
+import { availableKeys } from '../../type/availableKeys';
 
 
 export class Item implements IItem {
@@ -24,7 +24,7 @@ export class Item implements IItem {
         this.uuid = uuidv4();
         this.name = name;
         this.category = category;
-        this.price = price - (price * discount / 100);
+        this.price = price
         this.discount = discount;
         this.quantity = quantity;
     }
@@ -44,7 +44,7 @@ export class Item implements IItem {
                 return
             }
         };
-        throw new Error('is wrong arguments');
+        throw new Error('is wrong argument');
     }
 
     show = (): string => {

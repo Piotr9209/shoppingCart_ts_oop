@@ -40,5 +40,3 @@ module.exports = {
     ],
   },
 };
-
-//wywalic css/scss. dodaj TS, uwzglednic pliki jest, by pliki testowe by nie byly bundlowane
